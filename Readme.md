@@ -7,6 +7,8 @@ Testing Llama 3.1 tools with llama.cpp and 4-bit Quantized 8B Instruct. This inc
 - Check if LLM is able to use previous tool call response.  
 - Check complex JSON extract with tool call.  
 
+[<img src="./video.png">](https://youtu.be/pZraRJ6VSjQ)
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
