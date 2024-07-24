@@ -1,0 +1,21 @@
+[tool.poetry]
+package-mode = false
+name = "llama31"
+version = "0.1.0"
+description = "Test tools"
+authors = ["Vuong Ngo <vuongngo.pd@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+llama-cpp-python = "^0.2.83"
+brave-search = "^0.2.0"
+transformers = "^4.43.1"
+torch = "^2.3.1"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
