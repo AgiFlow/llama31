@@ -7,6 +7,8 @@ Testing Llama 3.1 tools with llama.cpp and 4-bit Quantized 8B Instruct. This inc
 - Check if LLM is able to use previous tool call response.  
 - Check complex JSON extract with tool call.  
 
+## Video walkthrough
+
 [<img src="./video.png">](https://youtu.be/xuzRIWVxb_w)
 
 ## Prerequisites
@@ -21,7 +23,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/AgiFlow/llama31.git
+   git clone https://github.com/AgiFlow/llama31
    cd llama31
    ```
 
@@ -45,7 +47,7 @@ This repo uses [lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF](https://hugg
 1. Launch Jupyter Notebook:
 
    ```sh
-   poetry run jyputer notebook
+   poetry run jupyter notebook
    ```
 
 ## Contributing
